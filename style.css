@@ -86,6 +86,15 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 2rem;
+    display: none;
+}
+
+.active.signup-form-wrapper {
+    display: block;
+}
+
+.active.login-form-wrapper {
+    display: block;
 }
 
 .x-btn {
